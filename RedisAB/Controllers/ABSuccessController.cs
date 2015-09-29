@@ -8,7 +8,7 @@ namespace RedisAB.Controllers
     public class ABSuccessController : Controller
     {
         public IABLogger ABLogger { get; set; }
-
+        //Post Info
         [HttpPost]
         public void Index(string actionName, string viewName)
         {
