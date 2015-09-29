@@ -15,7 +15,7 @@ namespace RedisAB.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description.";
 
             return View();
         }
